@@ -18,7 +18,7 @@ public class Application {
 
 		try {
             System.out.println("-----------Application啟動 Sleep Start-----");
-			Thread.sleep(3000);
+			Thread.sleep(30000);
 			System.out.println("-----------Application啟動 Sleep End-----");
 		} catch (InterruptedException e) {
 			e.printStackTrace();
