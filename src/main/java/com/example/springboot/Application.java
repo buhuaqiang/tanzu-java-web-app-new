@@ -14,6 +14,15 @@ import org.springframework.boot.actuate.trace.http.InMemoryHttpTraceRepository;
 public class Application {
 
 	public static void main(String[] args) {
+
+
+		try {
+            System.out.println("-----------Application啟動 Sleep Start-----");
+			Thread.sleep(3000);
+			System.out.println("-----------Application啟動 Sleep End-----");
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		SpringApplication.run(Application.class, args);
 	}
 
